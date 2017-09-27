@@ -1,8 +1,12 @@
+/*COMPONENTS*/
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../node_modules/foundation-sites/dist/css/foundation.css';
-import Core from './Core';
+/*CSS*/
+import 'semantic-ui-css/semantic.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+/*APP-COMPONENTS*/
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Core />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
