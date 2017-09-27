@@ -4,11 +4,12 @@
   "private": true,
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "foundation-sites": "^6.4.3",
     "jquery": "^3.2.1",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
-    "react-scripts": "1.0.13"
+    "react-scripts": "1.0.13",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.74.2"
   },
   "scripts": {
     "start": "react-scripts start",
