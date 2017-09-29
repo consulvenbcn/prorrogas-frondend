@@ -19,7 +19,7 @@ class Maincontent extends Component {
     const { visible } = this.state
     const { activeItem } = this.state
     return (
-      <div className="main container">
+      <Container className="main container" fluid>
         <Sidebar.Pushable as={Segment}>
           <Sidebar as={Menu} animation='push' width='wide' visible={visible} icon='labeled' vertical inverted>
             <Menu.Item name='inbox' active={activeItem === 'inbox'} onClick={this.handleItemClick}>
@@ -49,7 +49,7 @@ class Maincontent extends Component {
           </Sidebar>
           <Sidebar.Pusher>
             <Segment>
-              <Container>
+              <Container fluid>
                 <Button onClick={this.toggleVisibility} primary><Icon name='sidebar' /> Menu</Button>
                 <Header as='h1'>Application Content</Header>
                 <p>This is a basic fixed menu template using fixed size containers.</p>
@@ -65,7 +65,7 @@ class Maincontent extends Component {
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
-      </div>
+      </Container>
     );
   }
 }
