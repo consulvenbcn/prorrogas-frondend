@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Sidebar, Label, Segment, Container, Button, Menu, Image, Icon, Header, Dropdown } from 'semantic-ui-react';
+import {  Menu, Image, Icon, Dropdown } from 'semantic-ui-react';
 import logo from '../../images/logo.png';
 
 class Topbar extends Component {
