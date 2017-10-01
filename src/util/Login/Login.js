@@ -39,7 +39,7 @@ render() {
                         iconPosition='left'
                         placeholder='Nombre de Usaurio'
                         type='text'
-                        fluid='true'
+                        fluid
                       />
                     </Form.Field>
                     <Form.Field>
@@ -49,11 +49,11 @@ render() {
                         iconPosition='left'
                         placeholder='Contraseña'
                         type='password'
-                        fluid='true'
+                        fluid
                       />
                     </Form.Field>
                     <Divider />
-                    <Button type='submit' color='teal' fluid onClick={this.handleShow}><Icon name='sign in' size='medium'/> Ingresar</Button>
+                    <Button type='button' color='teal' fluid onClick={this.handleShow}>Ingresar <Icon name='sign in'/></Button>
                   </Form>
                 </Segment>
               </Container>
